@@ -33,11 +33,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.navbar-brand {
-  color: #ffa500;
-  font-family: "Pacifico", cursive;
-  font-size: 1.5rem;
-}
+
 
 .brand-text {
   font-size: 1.25rem;
@@ -45,10 +41,7 @@ body {
   transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
-.brand-text:hover {
-  transform: scale(1.05) rotate(-1deg);
-  text-shadow: 2px 2px 8px rgba(255, 215, 0, 0.5);
-}
+
 
 .navbar-toggler-icon {
   transition: background-color 0.3s ease;
@@ -63,12 +56,12 @@ body {
 }
 
 .navbar-nav .nav-link:hover {
-  color: #ffd702;
+  color: linear-gradient(135deg, #d9a7b0, #b46a7a);
   transform: scale(1.1);
 }
 
 .navbar-scrolled .nav-link {
-  color: #ffb703 !important;
+  color: linear-gradient(135deg, #d9a7b0, #b46a7a) !important;
 }
 
 /* Hero Section */
